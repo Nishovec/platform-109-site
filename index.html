@@ -6,7 +6,7 @@
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 'Segoe UI',system-ui,sans-serif}button,input,select,textarea{font:inherit;color:inherit}button,select,input,textarea{border:1px solid var(--line);border-radius:8px;background:var(--card);padding:8px 12px}button{cursor:pointer}button:hover,button[aria-pressed=true]{border-color:var(--accent);color:var(--accent);background:var(--soft)}:focus-visible{outline:3px solid #22a89c;outline-offset:2px}a{color:var(--accent)}#shell{display:grid;grid-template-columns:246px minmax(0,1fr);min-height:100vh}aside{background:var(--nav);color:white;padding:24px 14px;position:sticky;top:0;height:100vh;overflow:auto}.brand{display:flex;align-items:center;gap:12px;margin:0 8px 29px;font-weight:650;line-height:1.2}.logo{display:grid;place-items:center;background:#82e6da;color:#0b3037;width:46px;height:44px;border-radius:10px;font-weight:850;flex:none}.brand small{display:block;color:var(--navtext);margin-top:4px;font-weight:400}.navgroup{font-size:12px;letter-spacing:.09em;color:#9cabc0;text-transform:uppercase;margin:16px 10px 6px}nav a{display:flex;gap:10px;padding:7px 9px;text-decoration:none;color:var(--navtext);font-size:14px;border-radius:7px;align-items:center}nav a span{font-size:12px;color:#95afc5;font-variant-numeric:tabular-nums}nav a:hover,nav a[aria-current=page]{background:#203b51;color:#fff}nav a[aria-current=page] span{color:#82e6da}.top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px clamp(16px,3vw,42px);background:var(--card);border-bottom:1px solid var(--line);flex-wrap:wrap}.top strong{font-size:14px}.tools,.filters,.tabs{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.tools input{width:210px}.version,.badge{display:inline-block;border-radius:20px;padding:3px 9px;font-size:13px;font-weight:600;background:var(--soft);color:var(--accent)}.badge.unknown{background:var(--warnbg);color:var(--warn)}.badge.confirmed{border:1px solid var(--accent)}main{max-width:1460px;margin:auto;padding:28px clamp(16px,3vw,42px) 55px}.hero{position:relative;overflow:hidden;background:radial-gradient(ellipse at 95% 100%,#155968,transparent 56%),#152943;color:white;padding:clamp(22px,4vw,46px);border-radius:16px;margin-bottom:20px}.hero:before{content:'';position:absolute;inset:0;background:radial-gradient(#a2e8e4 1px,transparent 1px) right center/18px 18px;opacity:.13;pointer-events:none;mask-image:linear-gradient(90deg,transparent 45%,black)}.hero h1{max-width:800px;position:relative}.hero p{max-width:690px;color:#c7d7ea;position:relative}.eyebrow{font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-size:13px}.hero .eyebrow{color:#94e9df}h1,h2,h3,p{margin:0 0 12px}h1{font-size:clamp(30px,4vw,52px);line-height:1.09;letter-spacing:-.04em}h2{font-size:23px;line-height:1.2;letter-spacing:-.02em}h3{font-size:17px}.sub,.muted,small{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:14px;margin:16px 0}.card,.panel{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:19px;min-width:0}.panel{margin:16px 0}.card p:last-child,.panel p:last-child{margin-bottom:0}.stat{font-size:27px;line-height:1.2;font-weight:730;display:block;margin-bottom:5px}.sectionhead{display:flex;justify-content:space-between;align-items:start;gap:12px;flex-wrap:wrap;margin-bottom:12px}.diagram{overflow:hidden;touch-action:none;background-image:radial-gradient(var(--line) 1px,transparent 1px);background-size:16px 16px;border:1px solid var(--line);border-radius:9px;margin-top:12px}.diagram svg{display:block;width:100%;height:auto;cursor:grab}.diagram svg:active{cursor:grabbing}.diagram g[role=button]{cursor:pointer}.diagram g[role=button]:hover rect,.diagram g[role=button]:focus rect{stroke-width:2.5;stroke:#159c91}.tablewrap{overflow:auto;margin-top:12px}table{width:100%;border-collapse:collapse;text-align:left;font-size:14px}th,td{border-bottom:1px solid var(--line);padding:11px 10px;vertical-align:top}th{background:var(--bg);font-weight:700}td input{width:100%;min-width:115px;padding:5px 7px}td:first-child{font-weight:600}dl{display:grid;grid-template-columns:minmax(110px,1fr) 3fr;gap:8px 14px;margin:14px 0}dt{font-weight:650}dd{margin:0}details{border-top:1px solid var(--line);padding:11px 0}summary{cursor:pointer;font-weight:650}textarea{display:block;width:100%;min-height:110px;resize:vertical}dialog{max-width:min(680px,94vw);max-height:88vh;width:100%;border:1px solid var(--line);border-radius:14px;background:var(--card);color:var(--ink);padding:22px}dialog::backdrop{background:#071425ac}.notice{padding:12px 15px;background:var(--warnbg);color:var(--warn);border-radius:8px;margin:12px 0}.bar{height:14px;background:var(--accent);min-width:0;border-radius:3px}.barrow{display:grid;grid-template-columns:minmax(95px,190px) 1fr 55px;align-items:center;gap:10px;margin:9px 0}.steps{display:grid;gap:6px}.steps button{text-align:left}.foot{margin-top:24px;color:var(--muted);font-size:13px}.result{display:block;margin:5px 0}#mobile{display:none}
 @media(max-width:780px){#shell{grid-template-columns:minmax(0,1fr)}aside{position:static;height:auto;display:none}aside.open{display:block}#mobile{display:inline-block}.top strong{display:none}.diagram svg{min-height:180px}dl{grid-template-columns:1fr;gap:3px}dd{margin-bottom:8px}}
 @media print{aside,.top,button,.filters,.tabs,.noprint{display:none!important}#shell{display:block}main{padding:0;max-width:none}.hero{background:#fff;color:#111;padding:0}.hero p,.hero .eyebrow{color:#333}.panel,.card{break-inside:avoid}body{background:#fff;color:#111}td input{border:0;padding:0;min-width:60px}table{font-size:10px}td,th{padding:4px}a{color:#111}}
-.report-field{min-height:40px;width:100%;min-width:145px;field-sizing:content;padding:6px 8px;resize:vertical}.report-field[aria-invalid=true]{border-color:#b7472d}.cell-source{display:block;margin-top:4px}.cell-source.flagged{color:var(--warn)}.print-value{display:none}.barrow{grid-template-columns:minmax(110px,190px) 1fr minmax(58px,auto)}@media print{.report-field{display:none}.print-value{display:inline;overflow-wrap:anywhere}}</style></head><body>
+.report-field{min-height:40px;width:100%;min-width:145px;field-sizing:content;padding:6px 8px;resize:vertical}.report-field[aria-invalid=true]{border-color:#b7472d}.cell-source{display:block;margin-top:4px}.cell-source.flagged{color:var(--warn)}.print-value{display:none}.barrow{grid-template-columns:minmax(110px,190px) 1fr minmax(58px,auto)}@media print{.report-field{display:none}.print-value{display:inline;overflow-wrap:anywhere}}.column-scroll{overflow:auto;padding:14px 0}.columns{display:grid;grid-template-columns:repeat(var(--columns),minmax(108px,1fr));gap:9px}.column{display:grid;grid-template-rows:180px auto;padding:0 4px 5px;min-width:108px;text-align:center;border-color:transparent;background:transparent}.column-plot{height:100%;display:flex;align-items:flex-end;justify-content:center;border-bottom:1px solid var(--line);background:repeating-linear-gradient(to top,transparent 0,transparent 44px,var(--line) 45px)}.column-track{height:var(--value);min-height:2px;width:60%;background:var(--accent);border-radius:5px 5px 0 0;position:relative}.column-track b{font-size:12px;position:absolute;bottom:100%;left:50%;transform:translateX(-50%);white-space:nowrap;color:var(--ink)}.column-label{font-size:12px;line-height:1.25;overflow-wrap:anywhere;padding-top:6px}.columns{padding-top:18px}.tablewrap table th{min-width:110px}</style></head><body>
 <div id="shell"><aside id="sidebar"><div class="brand"><span class="logo">109</span><div>Платформа 109<small>Республика Казахстан</small></div></div><nav id="nav" aria-label="Разделы"></nav></aside><div><header class="top"><div class="tools"><button id="mobile" aria-controls="sidebar" aria-expanded="false">Разделы</button><strong>Архитектура единой платформы</strong><span class="version">Draft v0.1</span><small>На согласовании</small></div><div class="tools"><form id="search" role="search"><input id="query" type="search" aria-label="Поиск по порталу" placeholder="Поиск по порталу" required><button>Найти</button></form><button id="theme" aria-label="Переключить цветовую тему">Тёмная тема</button></div></header><main id="main"></main></div></div>
 <dialog id="modal"><div class="sectionhead"><h2 id="modalTitle"></h2><form method="dialog"><button>Закрыть</button></form></div><div id="modalBody"></div></dialog>
 <script>
@@ -26,8 +26,8 @@ const sources={
 const regions=['Астана','Акмолинская область','Другие регионы'];
 const models=[
  ['Централизованная','Единый интерфейс и операционный реестр','Одинаковый процесс и справочники','Миграция истории и зависимость от центрального контура','Инвентаризация, миграционные правила и резервирование'],
- ['Федеративная','Региональный реестр и центральный обмен','Сохраняются локальные процессы и системы','Сложнее обеспечить сопоставимость статусов и данных','Версионированные контракты, адаптеры, сверка'],
- ['Гибридная','Единый интерфейс для части регионов, адаптеры для остальных','Постепенное подключение и общие правила обмена','Два режима эксплуатации и риск конфликтов записей','Единые идентификаторы, владелец записи, правила сверки']
+ ['Региональная','Региональный контур в единой платформе 109. Акимат, 109 и коммунальные службы работают с общей карточкой и профильными ролями.','Регион ведёт территориальные справочники, настройки маршрутов и перечень исполнителей','Нужны единые справочники и правила передачи между территориями','Единый идентификатор, модель доступа и контроль региональных правил'],
+ ['Гибридная','Единая карточка и ролевые кабинеты во всех регионах. Адаптеры поддерживают переходный обмен с действующими системами.','Постепенное подключение и общие правила обмена','Два режима эксплуатации и риск конфликтов записей','Единые идентификаторы, владелец записи, правила сверки']
 ];
 const layers=[
  ['A','Каналы взаимодействия',[
@@ -51,7 +51,7 @@ const layers=[
  ['Управление обращениями','Провести заявку через согласованный жизненный цикл','Данные заявки, команды оператора','Обновлённая карточка','Единый реестр заявок; Управление статусами','Конфликт параллельных изменений'],
  ['Единый реестр заявок','Связать центральный ID с региональными идентификаторами','ID источника, регион, версия','Карточка и ссылки на источники','Операционная база данных; Региональные ИС','Двойное владение записью'],
  ['Классификация','Назначить тип, категорию и подкатегорию','Описание, регион, подсказки','Код категории и версия справочника','Единые справочники; Маршрутизация','Ошибочная категория'],
- ['Маршрутизация','Найти исполнителя по теме, территории и полномочиям','Категория, адрес, правила','Назначение или ручная очередь','Управление исполнителями; Системы акиматов','Устаревшие границы ответственности'],
+ ['Маршрутизация','Найти исполнителя по теме, территории и полномочиям','Категория, адрес, правила','Назначение или ручная очередь','Управление исполнителями; Кабинеты акиматов','Устаревшие границы ответственности'],
  ['Управление исполнителями','Поддерживать реестр зон ответственности','Организация, полномочия, территория','Активные правила назначения','Единые справочники','Ответственный отсутствует в реестре'],
  ['Управление статусами','Валидировать переходы и вести историю','Текущий статус, команда, автор','Новый статус и событие','Хранилище событий; Региональные ИС','Несопоставимые локальные статусы'],
  ['SLA Engine','Рассчитать контрольные отметки по согласованным правилам','Тип, момент регистрации, календарь','Срок и событие риска нарушения','Управление эскалациями; Единые справочники','Неутверждённые календари или правила паузы'],
@@ -61,8 +61,8 @@ const layers=[
  ['Контроль качества','Проверить результат и зафиксировать оценку','Результат, история, обратная связь','Оценка и основание повторной проверки','История взаимодействий; BI-дашборды','Несопоставимость оценок']]],
  ['D','Интеграционный контур',[
  ['Региональные ИС','Согласовать обмен карточками и событиями','Региональная заявка, внешний ID','Подтверждение или обновление статуса','Единый реестр заявок; API Gateway','Различия региональных схем'],
- ['Системы акиматов','Передать задачу в рамках полномочий и получить ответ','Назначение, категория, территория','Квитанция и результат','Маршрутизация; Управление статусами','Неопределён владелец обмена'],
- ['Коммунальные организации','Получить подтверждение и результат работ','Задание и минимум адресных данных','Результат и подтверждающие материалы','Маршрутизация; Хранилище документов и аудиозаписей','Неполное подтверждение исполнения'],
+ ['Кабинеты акиматов','Передать задачу в рамках полномочий и получить ответ','Назначение, категория, территория','Квитанция и результат','Маршрутизация; Управление статусами','Неопределён владелец обмена'],
+ ['Кабинеты коммунальных служб','Получить подтверждение и результат работ','Задание и минимум адресных данных','Результат и подтверждающие материалы','Маршрутизация; Хранилище документов и аудиозаписей','Неполное подтверждение исполнения'],
  ['Государственные ИС','Запроектировать обмен в пределах согласованных оснований','Согласованный набор данных','Квитанция или ответ','IAM; Реестр интеграций','Нет согласованного основания доступа','unknown'],
  ['SDU','Уточнить назначение, состав и владельца обмена','Подлежит согласованию','Подлежит согласованию','Реестр интеграций; согласование владельцев','Ручной режим и неопределённый контракт','unknown'],
  ['Прочие системы','Включать обмен после регистрации и согласования','Паспорт интеграции','Решение о подключении','Реестр интеграций; IAM','Неконтролируемое расширение контура','unknown']]],
@@ -111,7 +111,7 @@ const processes=[
 ];
 const integrations=[
  ['Региональная ИС','Платформа 109','Синхронизация карточки и статуса','Двусторонний','Внешний ID, версия, категория, статус','Версионированный API или события','По изменению, гипотеза','proposal','Владельцы региональной ИС и платформы подлежат назначению','Идентификация системы, минимизация полей','Идемпотентный повтор, журнал отказов, сверка'],
- ['Платформа 109','Системы акиматов','Передача задачи по компетенции','Двусторонний','Назначение, результат, квитанция','API или согласованный адаптер','По событию, гипотеза','proposal','Согласовать с акиматами','Доступ по территории и роли','Квитанция, очередь повторов, ручное разрешение'],
+ ['Платформа 109','Кабинеты акиматов','Передача задачи по компетенции','Двусторонний','Назначение, результат, квитанция','API или согласованный адаптер','По событию, гипотеза','proposal','Согласовать с акиматами','Доступ по территории и роли','Квитанция, очередь повторов, ручное разрешение'],
  ['Платформа 109','Коммунальные службы','Передача работ и получение результата','Двусторонний','Адрес, категория, результат','Кабинет или адаптер','По событию, гипотеза','proposal','Региональный координатор и организация','Доступ только к назначенным заявкам','Повтор отправки и передача диспетчеру'],
  ['Региональный контур','SDU','Уточнение состава обмена','Подлежит согласованию','Подлежит согласованию','В задании упомянут ручной обмен и подготовка автоматизации',no,'unknown',no,'Согласовать правовое основание и состав','Подтвердить порядок сверки и повторной отправки'],
  ['Платформа 109','Государственные ИС','Обмен по утверждаемому реестру','Подлежит согласованию',no,no,no,'unknown',no,'Проверить допустимость каждого набора данных','Определить коды отказа и порядок разбора']
@@ -188,7 +188,7 @@ const roadmap=[
  ['Поэтапное масштабирование','План волн и критерии допуска','Решение по результатам пилота']
 ];
 const decisions=[
- ['ADR-001','Модель платформы','Четыре региона представлены полугодовыми отчётами. Техническая готовность к подключению уточняется.','Централизованная, федеративная, гибридная','Гибридная как гипотеза','Можно сохранить действующие ИС и дать интерфейс регионам без собственного контура','Потребуются два профиля эксплуатации и сверка','Архитектурный совет, назначение требует согласования'],
+ ['ADR-001','Модель платформы','Четыре региона представлены полугодовыми отчётами. Техническая готовность к подключению уточняется.','Центральная, региональная, гибридная','Гибридная как гипотеза','Можно сохранить действующие ИС и дать интерфейс регионам без собственного контура','Потребуются два профиля эксплуатации и сверка','Архитектурный совет, назначение требует согласования'],
  ['ADR-002','Владение записью','Регионы могут вести локальные карточки','Центральный мастер, локальный мастер, разделение по полям','Один владелец записи для каждого режима','Явное владение упрощает разрешение конфликтов','Потребуется зафиксировать внешний ID и версию','Владелец данных, назначение требует согласования'],
  ['ADR-003','Обмен с SDU','В задании упомянуты подготовка и ручной обмен','Ручной режим, пакет, API или события','Согласовать контракт после обследования','Транспорт зависит от владельца, данных и оснований','Нужны процедура сверки и фиксация ошибок','Владельцы контуров, назначение требует согласования'],
  ['ADR-004','Учёт данных ОДКЦ-01','Показатели должны быть сравнимы за полугодие','Ручной ввод, импорт агрегатов, расчёт платформой','Начать с формы сравнения и согласовать методики','Позволяет отработать структуру до интеграции источников','Для промышленного расчёта нужна проверка редакции и единиц','Владелец отчётности, назначение требует согласования']
@@ -251,9 +251,918 @@ const suppliedReports={
 const submittedPeriods=['2024-I','2024-II','2025-I','2025-II','2026-I'];
 const periodLabel=key=>key.replace(/^(\d{4})-(I|II)$/,'$2 полугодие $1');
 const mio=region=>region==='Астана'?'':region==='Шымкент'||region==='Алматы'?'Аппарат акима города '+region:'Аппарат акима '+(region==='Акмолинская область'?'Акмолинской':'Атырауской')+' области';
-const reportEntry=(region,key)=>suppliedReports[region]?.[key];
+const reportEntry=(region,key)=>{
+ const provided=suppliedReports[region]?.[key];
+ const asIs=mioSnapshot[region]?.rows[key]?.asIs;
+ return provided?.values.length?provided:asIs?{...supplied('',asIs),source:'свод МИО.xlsx'}:provided;
+};
 const latestReport=region=>[...submittedPeriods].reverse().find(key=>reportEntry(region,key)?.values.length);
 
+
+const mioSnapshot = {
+ "Астана": {
+  "group": "Города республиканского значения",
+  "rows": {
+   "2024-I": {
+    "total": 1274742,
+    "operators": 135,
+    "wait": 72,
+    "fcr": 81.0,
+    "lost": 3.0,
+    "duration": 1,
+    "complaints": 44,
+    "issues": [],
+    "asIs": [
+     "109",
+     "Постановление акимата города Астаны от 12.12.2017 г. № 06-2617 \"О реорганизации Государственного учреждения \"Дежурная служба 109\"",
+     "г.Астана, ул. Бейбитшилик 9",
+     "да",
+     "109",
+     "круглосуточно",
+     "да",
+     "VMWare система виртуализации, Windows DataCenter, СУБД MSSQL, HPSM,Мобильное приложение Ikomek109, TelegramBot ikomek109,DLP TRELLIX, антивирус dr.Web,1С Бухгалтерия",
+     "",
+     "VMWare система виртуализации, Windows DataCenter, СУБД MSSQL, HPSM,Мобильное приложение Ikomek109, TelegramBot ikomek109,DLP TRELLIX, антивирус dr.Web,1С Бухгалтерия",
+     "288",
+     "135",
+     "1274742",
+     "Колл-центр – 1 204 579\nTelegram-чат-бот – 30 706\n Instagram - 13 458\n Мобильное приложение iKOMEK109 - 17 839\n Спец.службы (101,102,103) - 5 547\n Facebook - 1 872\n 109@ikomekastana.kz - 461\n Сайт акима г.Астаны - 280",
+     "72",
+     "Не применяется",
+     "81%",
+     "3%",
+     "1",
+     "44",
+     "VMWare система виртуализации, Windows DataCenter, СУБД MSSQL, HPSM,Мобильное приложение Ikomek109, TelegramBot ikomek109,DLP TRELLIX, антивирус dr.Web,1С Бухгалтерия,",
+     "Да, Информационно-аналитическая система \"Smart Data Ukimet\"",
+     "нет",
+     "нет",
+     "да",
+     "да",
+     "да",
+     "да"
+    ]
+   },
+   "2025-I": {
+    "total": 1049193,
+    "operators": 135,
+    "fcr": 81.5,
+    "lost": 1.4,
+    "complaints": 18,
+    "issues": [],
+    "asIs": [
+     "ГКП на ПХВ \"Городской центр мониторинга и оперативного реагирования\" акимата города Астаны",
+     "Постановление акимата города Астаны от 12.12.2017 г. № 06-2617 \"О реорганизации Государственного учреждения \"Дежурная служба 109\"",
+     "г. Астана, ул. Бейбитшилик 9",
+     "нет",
+     "109",
+     "круглосуточно",
+     "да",
+     "вопросы ЖКХ",
+     "да",
+     "Короткий номер109, Telegram-чат-бот, Instagram, Мобильное приложение iKOMEK109, Спец.службы (101, 102, 103), Facebook, 109@ikomekastana.kz,\nСайт акима г.Астаны",
+     "262",
+     "135",
+     "1049193",
+     "Короткий номер109 – 994 808\nTelegram-чат-бот – 22 604\nInstagram – 10 548, Мобильное приложение iKOMEK109 – \n13 179, \nСпец.службы (101, 102, 103) – \n6 840, \nFacebook – 811, \n109@ikomekastana.kz – 264,\nСайт акима г.Астаны – 85",
+     "46 секунд",
+     "нет",
+     "81.5%",
+     "1.4%",
+     "2 минут 23 секунд",
+     "18",
+     "VMWare система виртуализации, Windows DataCenter, СУБД MSSQL, HPSM,\nМобильное приложение Ikomek109, TelegramBot ikomek109,\nDigital guard DLP, антивирус dr.Web\n1С Бухгалтерия",
+     "SDU",
+     "нет",
+     "нет",
+     "да",
+     "да",
+     "да",
+     "Да.                                                                            Постановление акимата города Астаны от 20.11.2024 г. № 504-3571 \"Об утверждении Порядка управления услугами жизнеобеспечения города Астаны\""
+    ]
+   }
+  }
+ },
+ "Алматы": {
+  "group": "Города республиканского значения",
+  "rows": {
+   "2024-I": {
+    "total": 4350,
+    "operators": 2,
+    "wait": 180,
+    "score": 5,
+    "fcr": 100,
+    "lost": 0,
+    "duration": 5,
+    "complaints": 0,
+    "issues": []
+   },
+   "2024-II": {
+    "total": 130894,
+    "operators": 10,
+    "wait": 31,
+    "fcr": 86.9,
+    "lost": 13.9,
+    "complaints": 0,
+    "issues": []
+   },
+   "2025-I": {
+    "total": 123201,
+    "operators": 11,
+    "wait": 50,
+    "score": 4.9,
+    "fcr": 88.2,
+    "lost": 9.5,
+    "complaints": 0,
+    "issues": []
+   },
+   "2025-II": {
+    "total": 100002,
+    "wait": 31,
+    "score": 4.8,
+    "fcr": 59.1,
+    "lost": 10.0,
+    "duration": 2.41,
+    "complaints": 0,
+    "issues": []
+   }
+  }
+ },
+ "Шымкент": {
+  "group": "Города республиканского значения",
+  "rows": {
+   "2024-I": {
+    "total": 129607,
+    "operators": 46,
+    "wait": 20,
+    "score": 4.8,
+    "fcr": 85.0,
+    "lost": 5.0,
+    "complaints": 3,
+    "issues": []
+   },
+   "2025-I": {
+    "total": 160284,
+    "operators": 46,
+    "wait": 21,
+    "score": 4.9,
+    "fcr": 70.33,
+    "lost": 2.1,
+    "complaints": 1,
+    "issues": []
+   },
+   "2025-II": {
+    "total": 197789,
+    "operators": 46,
+    "wait": 21,
+    "score": 4.9,
+    "fcr": 70.24,
+    "lost": 2.1,
+    "complaints": 2,
+    "issues": []
+   },
+   "2026-I": {
+    "total": 184641,
+    "operators": 45,
+    "wait": 25,
+    "score": 4.8,
+    "fcr": 72.7,
+    "lost": 2.1,
+    "complaints": 4,
+    "issues": []
+   }
+  }
+ },
+ "Область Абай": {
+  "group": "Регионы",
+  "rows": {
+   "2024-I": {
+    "total": 8511,
+    "operators": 22,
+    "wait": 50,
+    "score": 5,
+    "fcr": 90.0,
+    "lost": 1.0,
+    "duration": 2,
+    "complaints": 0,
+    "issues": []
+   },
+   "2024-II": {
+    "total": 19714,
+    "operators": 22,
+    "wait": 16,
+    "score": 5,
+    "fcr": 99.8,
+    "lost": 15.1,
+    "duration": 10,
+    "complaints": 0,
+    "issues": []
+   },
+   "2025-I": {
+    "total": 10876,
+    "operators": 26,
+    "wait": 9,
+    "score": 5,
+    "fcr": 95.0,
+    "lost": 10.0,
+    "duration": 8,
+    "complaints": 0,
+    "issues": []
+   },
+   "2025-II": {
+    "total": 26417,
+    "operators": 26,
+    "wait": 8,
+    "score": 4.9,
+    "fcr": 98.6,
+    "lost": 10.0,
+    "duration": 7,
+    "complaints": 1,
+    "issues": []
+   },
+   "2026-I": {
+    "total": 16002,
+    "operators": 42,
+    "score": 5,
+    "fcr": 85.0,
+    "lost": 10.0,
+    "duration": 7,
+    "complaints": 0,
+    "issues": []
+   }
+  }
+ },
+ "Акмолинская область": {
+  "group": "Регионы",
+  "rows": {
+   "2025-I": {
+    "total": 16665,
+    "operators": 15,
+    "fcr": 97.0,
+    "lost": 1.0,
+    "complaints": 0,
+    "issues": []
+   },
+   "2025-II": {
+    "total": 24719,
+    "operators": 15,
+    "wait": 5,
+    "score": 4.5,
+    "fcr": 99.0,
+    "lost": 0.02,
+    "duration": 50,
+    "complaints": 0,
+    "issues": []
+   },
+   "2026-I": {
+    "total": 30419,
+    "operators": 27,
+    "score": 4.8,
+    "fcr": 92.4,
+    "lost": 0.6,
+    "duration": 1.47,
+    "complaints": 0,
+    "issues": []
+   }
+  }
+ },
+ "Актюбинская область": {
+  "group": "Регионы",
+  "rows": {
+   "2024-I": {
+    "total": 164695,
+    "operators": 14,
+    "wait": 5,
+    "score": 0.05,
+    "fcr": 50.0,
+    "lost": 4.0,
+    "duration": 5,
+    "complaints": 0,
+    "issues": []
+   },
+   "2024-II": {
+    "total": 32765,
+    "operators": 18,
+    "wait": 2,
+    "score": 0.045,
+    "fcr": 80.0,
+    "lost": 2.0,
+    "complaints": 2,
+    "issues": []
+   },
+   "2025-I": {
+    "total": 44409,
+    "operators": 17,
+    "score": 4.5,
+    "fcr": 80.0,
+    "lost": 2.0,
+    "complaints": 2,
+    "issues": []
+   }
+  }
+ },
+ "Алматинская область": {
+  "group": "Регионы",
+  "rows": {
+   "2024-I": {
+    "total": 7497,
+    "operators": 9,
+    "wait": 24,
+    "score": 0.04,
+    "fcr": 82.0,
+    "lost": 1,
+    "duration": 1,
+    "complaints": 0,
+    "issues": []
+   },
+   "2024-II": {
+    "total": 9093,
+    "operators": 10,
+    "fcr": 71.99,
+    "lost": 1.9,
+    "issues": []
+   },
+   "2025-I": {
+    "total": 9832,
+    "operators": 10,
+    "wait": 32,
+    "fcr": 60.4,
+    "complaints": 0,
+    "issues": []
+   },
+   "2025-II": {
+    "total": null,
+    "operators": 8,
+    "wait": 32,
+    "fcr": 60.4,
+    "lost": 17.78,
+    "complaints": 0,
+    "issues": [
+     "В поле итога размещена разбивка, совпадающая с листом Алматы. Значение исключено до сверки."
+    ]
+   }
+  }
+ },
+ "Атырауская область": {
+  "group": "Регионы",
+  "rows": {
+   "2024-I": {
+    "total": 135466,
+    "operators": 34,
+    "wait": 0.12,
+    "score": 0.045,
+    "fcr": 76,
+    "lost": 4,
+    "duration": 1,
+    "issues": []
+   },
+   "2024-II": {
+    "total": 97099,
+    "operators": 33,
+    "wait": 2,
+    "score": 0.041,
+    "fcr": 88.8,
+    "lost": 2.1,
+    "duration": 1,
+    "complaints": 1,
+    "issues": []
+   },
+   "2025-I": {
+    "total": 126248,
+    "operators": 40,
+    "wait": 2,
+    "score": 4,
+    "fcr": 88.5,
+    "lost": 1.9,
+    "duration": 1,
+    "complaints": 1,
+    "issues": []
+   },
+   "2025-II": {
+    "total": 224042,
+    "operators": 44,
+    "wait": 2,
+    "fcr": 81.5,
+    "lost": 2.8,
+    "duration": 1.5,
+    "complaints": 1,
+    "issues": []
+   }
+  }
+ },
+ "Восточно-Казахстанская область": {
+  "group": "Регионы",
+  "rows": {
+   "2024-I": {
+    "total": 18136,
+    "operators": 13,
+    "score": 0.05,
+    "fcr": 85.0,
+    "lost": 6.0,
+    "duration": 1,
+    "issues": []
+   },
+   "2024-II": {
+    "total": 15129,
+    "operators": 14,
+    "wait": 2,
+    "score": 4,
+    "fcr": 85.0,
+    "lost": 2.0,
+    "complaints": 0,
+    "issues": []
+   },
+   "2025-I": {
+    "total": 15670,
+    "operators": 14,
+    "wait": 40,
+    "score": 5,
+    "fcr": 83.0,
+    "lost": 2.3,
+    "complaints": 0,
+    "issues": []
+   },
+   "2025-II": {
+    "total": 16266,
+    "operators": 13,
+    "wait": 40,
+    "score": 5,
+    "fcr": 80.0,
+    "lost": 2.32,
+    "duration": 1.45,
+    "issues": []
+   },
+   "2026-I": {
+    "total": 18277,
+    "operators": 12,
+    "score": 5,
+    "fcr": 80.0,
+    "lost": 6.0,
+    "duration": 2,
+    "complaints": 0,
+    "issues": []
+   }
+  }
+ },
+ "Жамбылская область": {
+  "group": "Регионы",
+  "rows": {
+   "2024-I": {
+    "total": 30759,
+    "operators": 9,
+    "wait": 1,
+    "score": 0.047,
+    "fcr": 100,
+    "lost": 10,
+    "duration": 1,
+    "issues": []
+   },
+   "2024-II": {
+    "total": 25934,
+    "operators": 7,
+    "wait": 22,
+    "score": 0.04,
+    "fcr": 93.22,
+    "lost": 0.77,
+    "duration": 1,
+    "complaints": 25877,
+    "issues": []
+   },
+   "2025-I": {
+    "total": 32180,
+    "operators": 7,
+    "wait": 22,
+    "score": 4,
+    "fcr": 93.8,
+    "lost": 11.1,
+    "duration": 3,
+    "complaints": 30879,
+    "issues": []
+   },
+   "2025-II": {
+    "total": 35300,
+    "operators": 10,
+    "wait": 22,
+    "score": 4,
+    "fcr": 83.4,
+    "lost": 9.31,
+    "duration": 3,
+    "complaints": 34961,
+    "issues": []
+   }
+  }
+ },
+ "Область Жетысу": {
+  "group": "Регионы",
+  "rows": {
+   "2025-I": {
+    "total": 6030,
+    "operators": 12,
+    "score": 4,
+    "fcr": 32.0,
+    "lost": 2.2,
+    "duration": 3,
+    "issues": []
+   },
+   "2025-II": {
+    "total": 9188,
+    "operators": 12,
+    "wait": 3,
+    "score": 4,
+    "fcr": 31.0,
+    "duration": 3,
+    "issues": []
+   },
+   "2026-I": {
+    "total": 10996,
+    "operators": 12,
+    "score": 4,
+    "fcr": 29.0,
+    "lost": 3.9,
+    "duration": 3,
+    "issues": []
+   }
+  }
+ },
+ "Западно-Казахстанская область": {
+  "group": "Регионы",
+  "rows": {
+   "2024-I": {
+    "total": 42212,
+    "operators": 0.1,
+    "wait": 0.15,
+    "fcr": 86,
+    "lost": 1,
+    "duration": 2,
+    "complaints": 0,
+    "issues": []
+   },
+   "2025-II": {
+    "total": 44157,
+    "operators": 14,
+    "wait": 10,
+    "fcr": 90.0,
+    "lost": 2.0,
+    "duration": 1.15,
+    "complaints": 0,
+    "issues": []
+   }
+  }
+ },
+ "Карагандинская область": {
+  "group": "Регионы",
+  "rows": {
+   "2024-I": {
+    "total": 40485,
+    "operators": 31,
+    "wait": 5,
+    "score": 0.05,
+    "fcr": 80.0,
+    "lost": 3,
+    "duration": 3,
+    "complaints": 0,
+    "issues": []
+   },
+   "2025-I": {
+    "total": 956893,
+    "operators": 30,
+    "wait": 5,
+    "score": 0.05,
+    "fcr": 91.0,
+    "lost": 2.8,
+    "duration": 3,
+    "complaints": 0,
+    "issues": [
+     "956 893 значительно отличается от двух соседних заполненных периодов. Значение сохранено по своду и требует сверки."
+    ]
+   },
+   "2025-II": {
+    "total": 84242,
+    "operators": 38,
+    "wait": 5,
+    "score": 0.05,
+    "duration": 3,
+    "complaints": 0,
+    "issues": []
+   },
+   "2026-I": {
+    "total": 87899,
+    "operators": 38,
+    "score": 5,
+    "fcr": 87.7,
+    "lost": 2.5,
+    "duration": 3,
+    "complaints": 0,
+    "issues": []
+   }
+  }
+ },
+ "Костанайская область": {
+  "group": "Регионы",
+  "rows": {
+   "2024-I": {
+    "total": null,
+    "operators": 9,
+    "wait": 26,
+    "score": 4,
+    "fcr": 57,
+    "lost": 11,
+    "duration": 2,
+    "complaints": 9,
+    "issues": [
+     "На листе разнесены данные по нескольким контакт-центрам. Значения требуют отдельной сверки."
+    ]
+   },
+   "2024-II": {
+    "total": null,
+    "operators": 4,
+    "wait": 3,
+    "score": 5,
+    "fcr": 75.0,
+    "lost": 0,
+    "duration": 2,
+    "complaints": 0,
+    "issues": [
+     "На листе разнесены данные по нескольким контакт-центрам. Значения требуют отдельной сверки."
+    ]
+   },
+   "2025-I": {
+    "total": null,
+    "operators": 4,
+    "score": 4.5,
+    "fcr": 90,
+    "lost": 0,
+    "complaints": 0,
+    "issues": [
+     "На листе разнесены данные по нескольким контакт-центрам. Значения требуют отдельной сверки."
+    ]
+   },
+   "2025-II": {
+    "total": null,
+    "issues": [
+     "На листе разнесены данные по нескольким контакт-центрам. Значения требуют отдельной сверки."
+    ]
+   },
+   "2026-I": {
+    "total": null,
+    "issues": [
+     "На листе разнесены данные по нескольким контакт-центрам. Значения требуют отдельной сверки."
+    ]
+   }
+  }
+ },
+ "Кызылординская область": {
+  "group": "Регионы",
+  "rows": {
+   "2024-I": {
+    "total": 89739,
+    "operators": 28,
+    "wait": 0.01,
+    "score": 5,
+    "fcr": 97,
+    "lost": 1,
+    "duration": 1,
+    "complaints": 1,
+    "issues": []
+   },
+   "2024-II": {
+    "total": 89739,
+    "operators": 28,
+    "wait": 0.01,
+    "score": 5,
+    "fcr": 96.6,
+    "lost": 0.9,
+    "duration": 1,
+    "complaints": 1,
+    "issues": []
+   },
+   "2025-I": {
+    "total": 92491,
+    "operators": 28,
+    "wait": 3,
+    "score": 5,
+    "fcr": 97.7,
+    "lost": 3.0,
+    "complaints": 0,
+    "issues": []
+   }
+  }
+ },
+ "Мангистауская область": {
+  "group": "Регионы",
+  "rows": {
+   "2024-I": {
+    "total": 22724,
+    "operators": 6,
+    "wait": 120,
+    "score": 4.5,
+    "fcr": 80,
+    "lost": 2,
+    "duration": 1,
+    "complaints": 2,
+    "issues": []
+   },
+   "2024-II": {
+    "total": 14448,
+    "operators": 15,
+    "wait": 2,
+    "score": 4.5,
+    "fcr": 80.0,
+    "lost": 2.0,
+    "complaints": 2,
+    "issues": []
+   },
+   "2025-II": {
+    "total": 43206,
+    "operators": 18,
+    "wait": 2,
+    "fcr": 80.0,
+    "duration": 1.5,
+    "complaints": 2,
+    "issues": []
+   },
+   "2026-I": {
+    "total": 43206,
+    "operators": 18,
+    "wait": 2,
+    "score": 0.045,
+    "fcr": 80.0,
+    "lost": 2.8,
+    "complaints": 2,
+    "issues": []
+   }
+  }
+ },
+ "Павлодарская область": {
+  "group": "Регионы",
+  "rows": {
+   "2024-I": {
+    "total": 50000,
+    "operators": 18,
+    "wait": 2,
+    "score": 4.5,
+    "fcr": 80,
+    "lost": 2,
+    "duration": 1,
+    "complaints": 1,
+    "issues": []
+   },
+   "2024-II": {
+    "total": 53003,
+    "operators": 18,
+    "wait": 2,
+    "score": 4.5,
+    "fcr": 80.0,
+    "lost": 2.0,
+    "complaints": 1,
+    "issues": []
+   },
+   "2025-I": {
+    "total": 50805,
+    "operators": 25,
+    "score": 0.045,
+    "fcr": 80.0,
+    "lost": 2.0,
+    "complaints": 1,
+    "issues": []
+   },
+   "2026-I": {
+    "total": 53755,
+    "wait": 14,
+    "issues": []
+   }
+  }
+ },
+ "Северо-Казахстанская область": {
+  "group": "Регионы",
+  "rows": {
+   "2024-I": {
+    "total": 26485,
+    "operators": 9,
+    "wait": 41,
+    "score": 3.6,
+    "fcr": 74.0,
+    "lost": 10.0,
+    "duration": 1,
+    "complaints": 0,
+    "issues": []
+   },
+   "2024-II": {
+    "total": 27071,
+    "operators": 0.1,
+    "wait": 58,
+    "score": 4,
+    "fcr": 71.11,
+    "lost": 16.2,
+    "duration": 59.5,
+    "complaints": 0,
+    "issues": []
+   },
+   "2025-I": {
+    "total": 11184,
+    "operators": 10,
+    "wait": 58,
+    "score": 4,
+    "fcr": 64.89,
+    "lost": 16.2,
+    "complaints": 0,
+    "issues": []
+   },
+   "2025-II": {
+    "total": 25147,
+    "operators": 10,
+    "wait": 43,
+    "score": 4,
+    "complaints": 0,
+    "issues": []
+   },
+   "2026-I": {
+    "total": 19223,
+    "operators": 12,
+    "wait": 41,
+    "score": 4,
+    "fcr": 58.8,
+    "lost": 17.2,
+    "complaints": 0,
+    "issues": []
+   }
+  }
+ },
+ "Туркестанская область": {
+  "group": "Регионы",
+  "rows": {
+   "2024-I": {
+    "total": 87513,
+    "operators": 24,
+    "wait": 60,
+    "score": 5,
+    "fcr": 97.0,
+    "lost": 15.0,
+    "duration": 3,
+    "complaints": 10,
+    "issues": []
+   },
+   "2024-II": {
+    "total": 133279,
+    "wait": 77,
+    "fcr": 71.6,
+    "lost": 18.11,
+    "complaints": 23,
+    "issues": []
+   },
+   "2025-I": {
+    "total": 75035,
+    "operators": 29,
+    "wait": 60,
+    "fcr": 72.6,
+    "lost": 14.12,
+    "complaints": 23,
+    "issues": []
+   },
+   "2025-II": {
+    "total": 162320,
+    "operators": 22,
+    "wait": 55,
+    "fcr": 73.4,
+    "lost": 13.3,
+    "complaints": 18,
+    "issues": []
+   }
+  }
+ },
+ "Область Улытау": {
+  "group": "Регионы",
+  "rows": {
+   "2024-I": {
+    "total": 48330,
+    "operators": 10,
+    "wait": 2,
+    "score": 4.5,
+    "fcr": 80.0,
+    "duration": 1,
+    "complaints": 1,
+    "issues": []
+   },
+   "2025-I": {
+    "total": 26092,
+    "operators": 10,
+    "score": 4.5,
+    "fcr": 80.0,
+    "lost": 2.0,
+    "complaints": 2,
+    "issues": []
+   },
+   "2025-II": {
+    "total": 51004,
+    "operators": 12,
+    "wait": 2,
+    "fcr": 80.0,
+    "complaints": 2,
+    "issues": []
+   }
+  }
+ }
+};
 
 const $=(selector,root=document)=>root.querySelector(selector);
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -310,7 +1219,7 @@ function architectureRows(){
  if(state.view==='business')return [
  ['Гражданин и каналы',['Телефония 109','Веб-портал','Telegram и мессенджеры']],
  ['Оператор и диспетчер',['Управление обращениями','Классификация','Маршрутизация']],
- ['Исполнение',['Системы акиматов','Коммунальные организации','Управление эскалациями']],
+ ['Исполнение',['Кабинеты акиматов','Кабинеты коммунальных служб','Управление эскалациями']],
  ['Обратная связь',['Уведомления','Контроль качества','История взаимодействий']]];
  if(state.view==='technical')return [
  ['Входной контур',['API Gateway','IAM','Адаптеры каналов']],
@@ -418,10 +1327,10 @@ function overview(){
   ['Данные и контроль',['Аналитическое хранилище','Отчётность ОДКЦ-01','Аудит действий','Защита персональных данных']]
  ];
  return '<section class="hero"><div class="eyebrow">Республика Казахстан · Draft v0.1</div><h1>Единая цифровая платформа управления обращениями граждан</h1><p>Предварительная архитектура единой омниканальной информационно-аналитической системы Республики Казахстан</p><span class="version">Техническое и нормативное согласование</span></section>'+
- '<div class="grid"><div class="card"><strong class="stat">4 региона</strong><small>Подтверждённые данные ОДКЦ-01 · Акмолинская область, Шымкент, Алматы и Атырауская область</small><p><a href="#report">Сравнить отчёты</a></p></div><div class="card"><strong class="stat">3 сценария</strong><small>Централизация, федерация и гибридное подключение</small></div><div class="card"><strong class="stat">Гибридная модель</strong><small>Предварительная архитектурная гипотеза</small></div></div>'+
+ '<div class="grid"><div class="card"><strong class="stat">20 территорий</strong><small>Листы в своде МИО. Наполнение зависит от полугодия.</small><p><a href="#analytics">Посмотреть свод</a></p></div><div class="card"><strong class="stat">3 сценария</strong><small>Центральная, региональная и гибридная модели управления в единой платформе</small></div><div class="card"><strong class="stat">Общая карточка</strong><small>Контакт-центр, акиматы и коммунальные службы работают в одном контуре</small></div></div>'+
  '<section class="panel"><div class="sectionhead"><div><h2>Обзорная схема</h2><p class="muted">От входящего канала до исполнения и отчётности.</p></div><div class="tools"><a href="#tobe">Целевая архитектура</a><button data-print="">Печать обзора</button></div></div>'+graph('overview',groups,componentActions)+'</section>'+
  '<div class="grid"><div class="card"><h2>Цель платформы</h2><p>Собрать обращения из региональных каналов, обеспечить единые правила классификации, маршрутизации и контроля и получать сопоставимую аналитику по обращениям и инфраструктурным событиям.</p></div><div class="card"><h2>Открытые вопросы</h2>'+list(questions.slice(0,3).map(r=>r[1]))+'<a href="#decisions">Реестр вопросов</a></div><div class="card"><h2>Ключевые риски</h2>'+list(risks.slice(0,3).map(r=>r[1]))+'<a href="#gap">Проверки и разрывы</a></div></div>'+
- panel('Основания и достоверность','<p>'+badge('confirmed')+' '+source('base','Приказ № 443/НҚ')+' · '+source('report','Приказ № 390/НҚ, приложение 2 к Типовым требованиям')+' · '+source('update','Изменения № 262/НҚ от 21.05.2026')+'</p><p>'+confirmedBadge+' Полугодовые данные по четырём регионам доступны в <a href="#report">ОДКЦ-01</a> и <a href="#analytics">аналитике</a>.</p><p>'+badge('unknown')+' По Астане отчёты отсутствуют. Технические параметры, выходящие за рамки региональной отчётности, требуют обследования.</p><p>'+badge('proposal')+' Схемы и технические решения вынесены на согласование.</p>');
+ panel('Основания и достоверность','<p>'+badge('confirmed')+' '+source('base','Приказ № 443/НҚ')+' · '+source('report','Приказ № 390/НҚ, приложение 2 к Типовым требованиям')+' · '+source('update','Изменения № 262/НҚ от 21.05.2026')+'</p><p>'+confirmedBadge+' Полугодовые данные доступны в <a href="#report">ОДКЦ-01</a> и <a href="#analytics">аналитике</a>. По Астане использован предоставленный свод МИО.</p><p>'+badge('unknown')+' Технические параметры, выходящие за рамки региональной отчётности, требуют обследования.</p><p>'+badge('proposal')+' Схемы и технические решения вынесены на согласование.</p>');
 }
 function current(){
  const data=asis.map(r=>[r[0],r[1],r[2],labels.unknown]);
@@ -440,7 +1349,8 @@ function tobe(){
  return heading('Целевая архитектура','TO-BE · Логическая модель омниканальной платформы')+
  '<div class="tools"><a href="#asis">Перейти к AS-IS</a>'+badge('proposal')+'</div>'+
  panel('Сценарий платформы',modelControls('data-model',state.model)+modelCard(state.model))+
- panel('Архитектурная схема',viewTabs+'<p class="muted">'+esc(model[1])+'. Управление и безопасность применяются ко всем уровням. Возвратные события исполнения проходят через интеграционный контур.</p>'+layerTabs+graph('tobe',architectureRows(),componentActions))+
+ panel('Архитектурная схема',viewTabs+'<p class="muted">'+esc(model[1])+'. Контакт-центр 109, акиматы и коммунальные службы работают с единой карточкой через ролевые кабинеты. Интеграции обеспечивают обмен с внешними системами и переходными региональными контурами.</p>'+layerTabs+graph('tobe',architectureRows(),componentActions))+
+ operatingModel()+hatchScenario()+
  panel('Правила согласованности',list(['Один владелец состояния заявки для каждого сценария подключения. Центральный и внешний идентификаторы хранятся в явном соответствии.','Переход статуса создаёт событие с версией, временем и корреляционным ID. Повторная доставка обрабатывается идемпотентно.','Принятый пакет получает квитанцию. Ошибки направляются на повтор и сверку после проверки доступности системы-получателя.','Классификация, операции доступа и расчёт контрольных сроков зависят от версий согласованных правил.']));
 }
 function process(){
@@ -451,7 +1361,7 @@ function process(){
  const callbacks=Object.fromEntries(processes.map((_,i)=>[i,()=>{state.step=i;render();$('#process-detail').focus()}]));
  return heading('Бизнес-процессы','Сквозной путь обращения от первого контакта до проверки результата')+
  panel('Прохождение обращения',badge('proposal')+graph('process',graphRows,callbacks,false)+'<p class="muted">Основной маршрут: 1–7, затем 9–10. Консультация может завершиться без заявки. Эскалация, повтор и жалоба — условные ветви.</p>')+
- '<section class="panel" id="process-detail" tabindex="-1"><label>Этап <select id="process-select">'+options(processes.map(r=>r[0]),step[0])+'</select></label>'+dl([['Участники',step[1]],['Вход',step[2]],['Действия',step[3]],['Решение',routes[state.step]||'При успешной проверке перейти к следующему этапу. Исключение передать ответственному.'],['Выход',step[4]],['Исключение',step[5]]])+'</section>';
+ '<section class="panel" id="process-detail" tabindex="-1"><label>Этап <select id="process-select">'+options(processes.map(r=>r[0]),step[0])+'</select></label>'+dl([['Участники',step[1]],['Вход',step[2]],['Действия',step[3]],['Решение',routes[state.step]||'При успешной проверке перейти к следующему этапу. Исключение передать ответственному.'],['Выход',step[4]],['Исключение',step[5]]])+'</section>'+hatchScenario();
 }
 function integration(){
  const headers=['Источник','Получатель','Назначение','Направление','Данные','Метод','Периодичность','Статус','Ответственный','Безопасность','Ошибки и повтор'];
@@ -484,16 +1394,16 @@ function dataPage(){
 }
 function regionPage(){
  const link=[
-  'Локальная ИС ведёт карточку, центральный контур получает согласованный набор событий.',
+  'Регион управляет справочниками и маршрутами в единой платформе. Все участники работают с общей карточкой.',
   'Регион работает в центральном кабинете, региональная принадлежность определяет область доступа.',
-  'Регион сохраняет отдельные процессы в локальной ИС и использует центральный кабинет для остальных.'
+  'Единый кабинет используется в штатном процессе. В переходный период прежние системы обмениваются данными через адаптеры.'
  ];
- const choices=['Собственная ИС','Центральный интерфейс','Гибридный режим'];
+ const choices=['Региональное управление','Центральное управление','Гибридный переход'];
  const rows=[
  ['Республиканский уровень',['Единый реестр заявок','Единые справочники','BI-дашборды']],
  ['Региональный уровень',[state.regModel===1?'Управление обращениями':'Региональные ИС','Маршрутизация','Управление эскалациями']],
- ['Районы и города',['Системы акиматов','Управление исполнителями']],
- ['Исполнение',['Коммунальные организации','Управление статусами']]
+ ['Районы и города',['Кабинеты акиматов','Управление исполнителями']],
+ ['Исполнение',['Кабинеты коммунальных служб','Управление статусами']]
  ];
  return heading('Региональная архитектура','Полномочия и маршруты подключения регионов')+
  panel('Подключение региона',tabs(choices.map((r,i)=>[i,r]),state.regModel,'data-regmodel')+'<p class="muted">'+esc(link[state.regModel])+'</p>'+modelCard([1,0,2][state.regModel])+graph('regions',rows,componentActions));
@@ -803,6 +1713,7 @@ function sourceSummary(region,key,includeExecutor=false){
  const record=reportEntry(region,key);
  if(!record)return '<p class="muted">'+no+' за выбранное полугодие.</p>';
  const parts=[record.values.length?confirmedBadge:'<span class="badge unknown">Показатели не предоставлены</span>'];
+ if(record.source)parts.push('<p class="muted">Источник — '+esc(record.source)+'</p>');
  parts.push('<p>'+esc(mio(region))+(record.date?' · дата представления: '+esc(record.date):'')+'</p>');
  if(includeExecutor&&record.executor)parts.push('<details class="noprint"><summary>Исполнитель по отчёту</summary><p>'+esc(record.executor)+'</p></details>');
  if(Object.keys(record.issues).length)parts.push('<details><summary>Проверки и расхождения</summary>'+list(Object.entries(record.issues).map(([n,note])=>'Строка '+n+' — '+note))+'</details>');
@@ -846,18 +1757,31 @@ function confirmedCurrent(){
  const key=state.asisPeriod||latestReport(active)||'2025-I';
  const headers=['Компонент','Сведения','Достоверность'];
  let detail='';
- if(submittedRegions.includes(active)){
-  const data=snapshots(active,key).map((value,i)=>[aspectColumns[i],value,value===no?labels.unknown:uploadedLabel]);
+ if(reportRegions.includes(active)){
+  const data=indicators.map(([name],i)=>{
+   const value=reportEntry(active,key)?.values[i]||no;
+   return [name,value,value===no?labels.unknown:uploadedLabel];
+  });
+  const systems=asis.map(([name,astana,akmola],i)=>{
+   const record=reportEntry(active,key)?.values||[];
+   const index=[9,20,-1,26,-1,21,12][i];
+   const value=(index>=0&&record[index])||(active==='Акмолинская область'?akmola:active==='Астана'?astana:no);
+   return [name,value,(index>=0&&record[index])?uploadedLabel:labels.unknown];
+  });
   detail='<label>Полугодие <select id="asis-period">'+options(submittedPeriods.map(periodLabel),periodLabel(key))+'</select></label>'+
+   '<h3>Архитектурные компоненты</h3>'+table(headers,systems)+'<h3>Показатели ОДКЦ-01</h3>'+
    sourceSummary(active,key)+table(headers,data)+
    (active==='Акмолинская область'?'<details><summary>Сведения для технической сверки</summary>'+badge('unknown')+'<p>Qbox/Q19, автоматическая запись разговоров, рабочие скрипты и история ручного обмена с SDU упомянуты в первоначальном описании. Технические материалы и взаимосвязь с системами, указанными в отчётах, требуют сверки.</p></details>':'');
- }else if(active==='Астана')detail=badge('unknown')+table(headers,aspectColumns.map(name=>[name,no,labels.unknown]));
- else detail='<p>Добавляйте карточки будущих обследований. Записи сохраняются в этом браузере.</p><form id="add-region" class="tools"><input name="title" required maxlength="120" aria-label="Название региона" placeholder="Название региона"><input name="detail" maxlength="500" aria-label="Сведения и источник" placeholder="Сведения и источник"><button>Добавить карточку</button><small id="region-status" aria-live="polite"></small></form><div class="grid">'+read('extra-regions',[]).map(r=>'<article class="card"><h3>'+esc(r[0])+'</h3>'+badge('unknown')+'<p>'+esc(r[1]||no)+'</p></article>').join('')+'</div>';
- const comparisons=['Регион','Последнее заполненное полугодие',...aspectColumns];
- const rows=reportRegions.map(region=>[region,latestReport(region)?periodLabel(latestReport(region)):'—',...snapshots(region,latestReport(region))]);
+ }else detail='<p>Добавляйте карточки будущих обследований. Записи сохраняются в этом браузере.</p><form id="add-region" class="tools"><input name="title" required maxlength="120" aria-label="Название региона" placeholder="Название региона"><input name="detail" maxlength="500" aria-label="Сведения и источник"><button>Добавить карточку</button><small id="region-status" aria-live="polite"></small></form><div class="grid">'+read('extra-regions',[]).map(r=>'<article class="card"><h3>'+esc(r[0])+'</h3>'+badge('unknown')+'<p>'+esc(r[1]||no)+'</p></article>').join('')+'</div>';
+ const comparisons=['Показатель',...reportRegions];
+ const components=asis.map(([name,astana,akmola],i)=>[name,...reportRegions.map(region=>{
+  const index=[9,20,-1,26,-1,21,12][i];
+  return (index>=0&&reportEntry(region,key)?.values[index])||(region==='Акмолинская область'&&akmola!==no?akmola+' · требует сверки':region==='Астана'?astana:no);
+ })]);
+ const rows=indicators.map(([name],i)=>[name,...reportRegions.map(region=>reportEntry(region,key)?.values[i]||no)]);
  return heading('Текущая архитектура','AS-IS · Сведения из предоставленных полугодовых отчётов')+
  '<div class="tools">'+tabs([...reportRegions,'Другие регионы'].map(r=>[r,r]),active,'data-confirmed-region')+'<a href="#tobe">Перейти к TO-BE</a></div>'+
- panel(active,detail)+panel('Сравнение компонентов',csvButton('109-asis',comparisons,rows)+table(comparisons,rows));
+ panel(active,detail)+panel('Сравнение компонентов','<p class="muted">'+esc(periodLabel(key))+' · Архитектурные компоненты и 28 показателей за одно полугодие</p>'+csvButton('109-asis',comparisons,[...components,...rows])+table(comparisons,components)+'<h3>Сравнение показателей ОДКЦ-01</h3>'+table(comparisons,rows));
 }
 function actualAnalytics(){
  const mode=state.analyticsMode||'actual';
@@ -920,11 +1844,124 @@ function reportedIntegrations(){
 }
 
 
-const renderers={overview,asis:confirmedCurrent,tobe,process,integration:reportedIntegrations,data:dataPage,regions:regionPage,analytics:actualAnalytics,report:confirmedReport,security:securityPage,infra:infraPage,nfr:nfrPage,gap:confirmedGap,roadmap:roadmapPage,decisions:decisionsPage};
+const caseTypes=['Консультация','Инцидент','Жалоба','Предложение','Благодарность'];
+const orgRows=[
+ ['Область','Областной координатор 109','Решает межрайонные споры, контролирует эскалации','Обращения своей области и межрайонные задачи'],
+ ['Город','Координатор городского акимата','Координирует городские службы, назначает временного ответственного при споре','Городские обращения и назначенные эскалации'],
+ ['Район','Дежурный подразделения жизнеобеспечения','Проверяет реестр объектов, уточняет балансодержателя, переназначает с причиной','Обращения своего района'],
+ ['Сельский округ','Ответственный акимата округа','Проверяет объект на месте и передаёт материалы в район','Объекты и обращения своего округа'],
+ ['Контакт-центр 109','Оператор и инспектор','Оператор регистрирует, инспектор проверяет, закрывает или возвращает обращение','Регистрация и контроль в пределах закреплённой территории'],
+ ['Коммунальная служба','Диспетчер и исполнитель','Принимает назначение, фиксирует работы и прикладывает подтверждение','Только назначенные задачи, без права окончательного закрытия']
+];
+const registrationRows=[
+ ['Тип обращения','Один из пяти типов: '+caseTypes.join(', ')+'.','Обязателен'],
+ ['Классификация','Услуга уровня 1 → тема уровня 2 → подтема уровня 3. При несовпадении локальных уровней использовать версионированное сопоставление.','Обязательна при регистрации заявки'],
+ ['Территория','Регион, населённый пункт, адрес или геолокация. Система определяет район и сельский округ по адресу, координатам и границам. Оператор подтверждает неоднозначный результат.','Регион и населённый пункт обязательны для территориальных заявок'],
+ ['Заявитель','ФИО, телефон и ИИН предусмотрены в карточке. Обязательность определяется видом услуги, целью обработки и правовым основанием. Система сохраняет причину отсутствия, если поле обязательно.','Условно обязательны. Требует согласования'],
+ ['Содержание','Категория, описание, канал, время регистрации, критичность, идентификатор объекта при наличии. Фото заявителя — при наличии.','Обязательный минимум для инцидента'],
+ ['Критичность','Четыре категории для настройки: критическая, высокая, средняя, низкая. Предлагается таблица соответствия угрозе, услуге и утверждённому SLA. Изменение критичности журналируется.','Предлагаемое правило'],
+ ['Дубли','Сопоставить объект, геолокацию, подтему и временное окно. Оператор проверяет совпадение, система связывает карточки с основной и сохраняет отдельные контакты и уведомления.','Автоматический подбор, подтверждение оператором']
+];
+const hatchSteps=[
+ ['Поступление','Телефония, Telegram, приложение, соцсети и чат-боты поступают оператору в единую ИС 109.'],
+ ['Карточка и классификация','Адрес и геолокация, определённый район, описание, контакт при наличии, фото заявителя при наличии. Тип «Инцидент», высокая критичность, красный цвет. Система показывает возможные дубли.'],
+ ['Маршрутизация','По адресу, категории и справочнику задача направляется в отдел жизнеобеспечения района. Известный балансодержатель получает её одновременно. Панель акимата показывает инцидент.'],
+ ['Владелец не определён','Район становится временным координатором. Он сверяет реестр и службы, вносит подтверждённого владельца в реестр и передаёт задачу. Ориентир примера — три часа. При просрочке уведомляется вышестоящее руководство.'],
+ ['Принятие и работы','Исполнитель обязан принять задачу. Система фиксирует время, ответственного и остаток срока. Ориентир примера — устранение в течение суток. Описание работ и фото результата обязательны для статуса «Исполнено».'],
+ ['Контроль и эскалация','Перед истечением срока система предупреждает ответственных. При отсутствии подтверждения или просрочке она эскалирует задачу по матрице. Меры немедленного ограждения и начало отсчёта подлежат согласованию.'],
+ ['Независимая проверка','Инспектор 109 проверяет фото и описание. Он закрывает обращение либо возвращает на доработку с причиной. При новых обстоятельствах или обоснованной жалобе возможно возобновление.'],
+ ['Обратная связь','Заявитель автоматически получает уведомления о регистрации, принятии и результате и может дать оценку. Действия и смена статуса сохраняются в журнале.']
+];
+const routingRows=[
+ ['Найден исполнитель','Назначить по территории, услуге и реестру объектов. Обязательная квитанция о принятии фиксирует время и ответственного.'],
+ ['Ошибочное назначение','Исполнитель указывает причину и предлагает участника. Координатор перенаправляет обращение. История и первоначальное время регистрации сохраняются.'],
+ ['Владелец спорный или отсутствует','Назначить территориального координатора, начать отдельный контрольный срок, проверить реестр и профильные службы. При конфликте между районами передать областному или городскому координатору по компетенции. После подтверждения записать владельца и направить исполнителю.'],
+ ['Угроза безопасности','Передать информацию дежурным службам по применимому порядку и инициировать срочную оценку и ограждение при необходимости. Определение собственника ведётся параллельно.'],
+ ['Срок или принятие нарушены','Автоматическое уведомление о приближении срока и просрочке. Эскалация начальнику исполнителя, затем территориальному координатору. Таймеры принятия, определения владельца и работ учитываются отдельно.']
+];
+const knowledgeRows=[
+ ['Единая статья','Тема, применимость, язык, канал, ответ, уточняющие вопросы, сценарий отказа и передача на вторую линию.'],
+ ['Региональное наполнение','Региональные редакторы ведут территории, организации, местные условия и контакты в пределах своей области.'],
+ ['Согласование','Автор готовит версию, профильный владелец проверяет, ответственный редактор утверждает. Публикуется только согласованная версия с датой действия.'],
+ ['История','Хранить причины изменений, автора, согласования и дату следующей проверки. Сохранять версию скрипта, использованного при консультации.']
+];
+const kpiRows=[
+ ['Операторы','Нагрузка, средняя обработка, доля решённых при первом контакте, точность регистрации и классификации.'],
+ ['Исполнители','Принято, завершено, доля закрытых в срок, длительность исполнения, возвраты на доработку по каждому исполнителю.'],
+ ['Повторные обращения','Доля связанных повторов по объекту и подтеме за единый период.'],
+ ['Необоснованное закрытие','Возобновления и нарушения, подтверждённые независимой проверкой. Показывать отдельно от обычных возвратов.'],
+ ['Проблемные территории','Районы и населённые пункты с повторениями, просрочками и концентрацией инцидентов.'],
+ ['Подтверждение исполнения','Фото результата, где требуется, описание работ, время, исполнитель и результат проверки инспектора.']
+];
+function operatingModel(){
+ return panel('Организационная архитектура',badge('proposal')+table(['Уровень','Роль','Ответственность','Область доступа'],orgRows)+
+ '<p class="muted">Для городов республиканского значения городская координация действует на своём уровне. Для сельского округа вышестоящий уровень — район. Матрица эскалаций настраивается по административному подчинению.</p>')+
+ panel('Регистрация и классификация',table(['Правило','Содержание','Применение'],registrationRows))+
+ panel('Маршрутизация, приём и контроль сроков',table(['Ситуация','Действие'],routingRows))+
+ panel('Единая база знаний',table(['Компонент','Правило'],knowledgeRows))+
+ panel('Контроль качества и аналитика',table(['Область','Показатель или проверка'],kpiRows));
+}
+function hatchScenario(){
+ const rows=hatchSteps.map(([name,text],i)=>[i+1,name,text]);
+ const comparison=[
+  ['Вход и территория','Отдельные каналы. Район определяет оператор.','Единый вход. Район определяет система, оператор проверяет.'],
+  ['Уточнение владельца','Район сообщает балансодержателя в рабочем чате.','Район фиксирует владельца в реестре. Задача автоматически назначается.'],
+  ['Контроль и оповещение','Инспектор отслеживает рабочий чат.','Панель акимата, уведомления и автоматическая эскалация.'],
+  ['Исполнение и закрытие','Исполнитель прикладывает фото. Инспектор закрывает.','Фото обязательно для статуса «Исполнено». Инспектор закрывает после проверки или возвращает с причиной.']
+ ];
+ return panel('Сценарий «Открытый канализационный люк»',badge('proposal')+
+ '<p class="muted">Источник — «Пример ЛЮК.docx», рабочий материал к первой редакции Единого стандарта 109. Три часа и одни сутки — параметры примера, требующие согласования.</p>'+
+ table(['Шаг','Этап','Действие'],rows)+'<details><summary>Действующий и целевой процессы</summary>'+table(['Шаг','AS-IS по рабочему примеру','TO-BE'],comparison)+'</details>');
+}
+
+
+const geoScopes=['Республика Казахстан','Города республиканского значения','Города областного значения','Регионы'];
+function columnChart(title,items){
+ const values=items.filter(([,n])=>Number.isFinite(n)).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0],'ru'));
+ if(!values.length)return '<p class="notice">Для выбранного среза нет сопоставимых значений.</p>';
+ const max=Math.max(1,...values.map(r=>r[1]));
+ return '<div class="column-scroll"><div class="columns" style="--columns:'+values.length+'" role="group" aria-label="'+esc(title)+'">'+values.map(([name,n])=>
+  '<button class="column" type="button" data-demo="actual" data-actual data-label="'+esc(name)+'" data-count="'+n+'" aria-label="'+esc(name+' — '+showNumber(n,0)+' обращений')+'"><span class="column-plot"><span class="column-track" style="--value:'+(n/max*100)+'%"><b>'+showNumber(n,0)+'</b></span></span><span class="column-label">'+esc(name)+'</span></button>'
+ ).join('')+'</div></div>';
+}
+function reviewedAnalytics(){
+ const mode=state.analyticsMode||'actual';
+ if(mode==='demo')return actualAnalytics();
+ const scope=state.mioScope||geoScopes[0], key=state.mioPeriod||'2025-I';
+ const sourceRows=Object.entries(mioSnapshot).filter(([,entry])=>scope===geoScopes[0]||entry.group===scope);
+ const values=sourceRows.flatMap(([name,entry])=>{
+  const value=entry.rows[key]?.total;
+  return Number.isFinite(value)?[[name,value]]:[];
+ });
+ const notes=sourceRows.flatMap(([name,entry])=>(entry.rows[key]?.issues||[]).map(issue=>name+' — '+issue));
+ const region=state.actualRegion||'Акмолинская область';
+ const details=badge('proposal')+'<p class="muted">Показатели ниже проектируются по событиям единой платформы. Полугодовой свод не содержит событий закрытия, возврата или исполнения по каждому исполнителю.</p>'+table(['Область','Метрика'],kpiRows);
+ const output=heading('Аналитика и мониторинг','Свод МИО · Принятые обращения по полугодиям')+
+ tabs([['actual','Подтверждённые данные'],['demo','Демонстрационные данные']],mode,'data-analytics-mode')+
+ '<div class="filters"><label>Уровень <select id="mio-scope">'+options(geoScopes,scope)+'</select></label><label>Полугодие <select id="mio-period">'+options(submittedPeriods.map(periodLabel),periodLabel(key))+'</select></label></div>'+
+ panel('Принятые обращения по территориям','<div class="card"><h3>Число принятых обращений · '+esc(periodLabel(key))+'</h3>'+
+ (scope===geoScopes[2]?'<p class="notice">Свод не выделяет сопоставимый срез по городам областного значения. Для этой группы нужна отдельная детализация.</p>':'<p class="muted">Источник — «свод МИО.xlsx». В срезе '+values.length+' из '+sourceRows.length+' территорий. Показаны заполненные числовые итоги за выбранное полугодие.</p>'+columnChart('Число принятых обращений',values))+
+ '</div>'+(notes.length?'<details><summary>Примечания к качеству данных</summary>'+list(notes)+'</details>':''));
+ const regionFilter='<label>Территория <select id="actual-region">'+options(Object.keys(mioSnapshot),region)+'</select></label>';
+ const points=submittedPeriods.flatMap(p=>{const value=mioSnapshot[region]?.rows[p]?.total;return Number.isFinite(value)?[[periodLabel(p),value]]:[]});
+ const cell=reportEntry(region,key);
+ const scoreRows=cell?.values.length?[12,14,18,17,16,15,19,11].map(i=>{
+  const value=cell.values[i]||'';
+  const issue=flagged(cell,i);
+  return [indicators[i][0],value||'—',issue];
+ }):[];
+ return output+panel('Отчёт выбранной территории','<div class="card"><h3>'+esc(region)+'</h3>'+regionFilter+
+ '<p class="muted">Объём обращений по доступным полугодиям, по убыванию.</p>'+columnChart('Принятые обращения по полугодиям',points)+
+ (scoreRows.length?table(['Показатель · '+periodLabel(key),'Значение по отчёту','Примечание'],scoreRows):'<p class="muted">Для подробного среза используйте региональные первичные отчёты, где они доступны.</p>')+'</div>')+
+ panel('Предлагаемые показатели единой платформы',details);
+}
+
+
+const renderers={overview,asis:confirmedCurrent,tobe,process,integration:reportedIntegrations,data:dataPage,regions:regionPage,analytics:reviewedAnalytics,report:confirmedReport,security:securityPage,infra:infraPage,nfr:nfrPage,gap:confirmedGap,roadmap:roadmapPage,decisions:decisionsPage};
 const searchContent={
  overview:['Гибридная архитектура','Нормативные источники','Государственная платформа'],
  asis:[...reportRegions,...asis.flatMap(r=>r.slice(0,3)),...Object.values(suppliedReports).flatMap(data=>Object.values(data).flatMap(record=>[record.values[0],record.values[20],record.values[21]].filter(Boolean)))],
- tobe:entries.flatMap(r=>r.slice(0,2)),
+ tobe:[...entries.flatMap(r=>r.slice(0,2)),...orgRows.map(r=>r[0]),...caseTypes,'Открытый канализационный люк','Единая база знаний','Балансодержатель','Матрица ответственности'],
  process:processes.flatMap(r=>r.slice(0,2)),
  integration:integrations.flatMap(r=>r.slice(0,3)),
  data:entities.flatMap(r=>r.slice(0,2)),
@@ -1033,7 +2070,9 @@ main.addEventListener('change',e=>{
   'asis-period':()=>{state.asisPeriod=submittedPeriods.find(key=>periodLabel(key)===select.value)},
   'actual-region':()=>{state.actualRegion=select.value},
   'actual-period':()=>{state.actualPeriod=submittedPeriods.find(key=>periodLabel(key)===select.value)},
-  'gap-report-region':()=>{state.gapReportRegion=select.value}
+  'gap-report-region':()=>{state.gapReportRegion=select.value},
+  'mio-scope':()=>{state.mioScope=select.value},
+  'mio-period':()=>{state.mioPeriod=submittedPeriods.find(key=>periodLabel(key)===select.value)}
  };
  if(select.id&&Object.hasOwn(updates,select.id))updates[select.id]();
  else if(select.dataset.demofilter)(state.demo??={})[select.dataset.demofilter]=select.value;
