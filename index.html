@@ -6,7 +6,7 @@
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 'Segoe UI',system-ui,sans-serif}button,input,select,textarea{font:inherit;color:inherit}button,select,input,textarea{border:1px solid var(--line);border-radius:8px;background:var(--card);padding:8px 12px}button{cursor:pointer}button:hover,button[aria-pressed=true]{border-color:var(--accent);color:var(--accent);background:var(--soft)}:focus-visible{outline:3px solid #22a89c;outline-offset:2px}a{color:var(--accent)}#shell{display:grid;grid-template-columns:246px minmax(0,1fr);min-height:100vh}aside{background:var(--nav);color:white;padding:24px 14px;position:sticky;top:0;height:100vh;overflow:auto}.brand{display:flex;align-items:center;gap:12px;margin:0 8px 29px;font-weight:650;line-height:1.2}.logo{display:grid;place-items:center;background:#82e6da;color:#0b3037;width:46px;height:44px;border-radius:10px;font-weight:850;flex:none}.brand small{display:block;color:var(--navtext);margin-top:4px;font-weight:400}.navgroup{font-size:12px;letter-spacing:.09em;color:#9cabc0;text-transform:uppercase;margin:16px 10px 6px}nav a{display:flex;gap:10px;padding:7px 9px;text-decoration:none;color:var(--navtext);font-size:14px;border-radius:7px;align-items:center}nav a span{font-size:12px;color:#95afc5;font-variant-numeric:tabular-nums}nav a:hover,nav a[aria-current=page]{background:#203b51;color:#fff}nav a[aria-current=page] span{color:#82e6da}.top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px clamp(16px,3vw,42px);background:var(--card);border-bottom:1px solid var(--line);flex-wrap:wrap}.top strong{font-size:14px}.tools,.filters,.tabs{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.tools input{width:210px}.version,.badge{display:inline-block;border-radius:20px;padding:3px 9px;font-size:13px;font-weight:600;background:var(--soft);color:var(--accent)}.badge.unknown{background:var(--warnbg);color:var(--warn)}.badge.confirmed{border:1px solid var(--accent)}main{max-width:1460px;margin:auto;padding:28px clamp(16px,3vw,42px) 55px}.hero{position:relative;overflow:hidden;background:radial-gradient(ellipse at 95% 100%,#155968,transparent 56%),#152943;color:white;padding:clamp(22px,4vw,46px);border-radius:16px;margin-bottom:20px}.hero:before{content:'';position:absolute;inset:0;background:radial-gradient(#a2e8e4 1px,transparent 1px) right center/18px 18px;opacity:.13;pointer-events:none;mask-image:linear-gradient(90deg,transparent 45%,black)}.hero h1{max-width:800px;position:relative}.hero p{max-width:690px;color:#c7d7ea;position:relative}.eyebrow{font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-size:13px}.hero .eyebrow{color:#94e9df}h1,h2,h3,p{margin:0 0 12px}h1{font-size:clamp(30px,4vw,52px);line-height:1.09;letter-spacing:-.04em}h2{font-size:23px;line-height:1.2;letter-spacing:-.02em}h3{font-size:17px}.sub,.muted,small{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:14px;margin:16px 0}.card,.panel{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:19px;min-width:0}.panel{margin:16px 0}.card p:last-child,.panel p:last-child{margin-bottom:0}.stat{font-size:27px;line-height:1.2;font-weight:730;display:block;margin-bottom:5px}.sectionhead{display:flex;justify-content:space-between;align-items:start;gap:12px;flex-wrap:wrap;margin-bottom:12px}.diagram{overflow:hidden;touch-action:none;background-image:radial-gradient(var(--line) 1px,transparent 1px);background-size:16px 16px;border:1px solid var(--line);border-radius:9px;margin-top:12px}.diagram svg{display:block;width:100%;height:auto;cursor:grab}.diagram svg:active{cursor:grabbing}.diagram g[role=button]{cursor:pointer}.diagram g[role=button]:hover rect,.diagram g[role=button]:focus rect{stroke-width:2.5;stroke:#159c91}.tablewrap{overflow:auto;margin-top:12px}table{width:100%;border-collapse:collapse;text-align:left;font-size:14px}th,td{border-bottom:1px solid var(--line);padding:11px 10px;vertical-align:top}th{background:var(--bg);font-weight:700}td input{width:100%;min-width:115px;padding:5px 7px}td:first-child{font-weight:600}dl{display:grid;grid-template-columns:minmax(110px,1fr) 3fr;gap:8px 14px;margin:14px 0}dt{font-weight:650}dd{margin:0}details{border-top:1px solid var(--line);padding:11px 0}summary{cursor:pointer;font-weight:650}textarea{display:block;width:100%;min-height:110px;resize:vertical}dialog{max-width:min(680px,94vw);max-height:88vh;width:100%;border:1px solid var(--line);border-radius:14px;background:var(--card);color:var(--ink);padding:22px}dialog::backdrop{background:#071425ac}.notice{padding:12px 15px;background:var(--warnbg);color:var(--warn);border-radius:8px;margin:12px 0}.bar{height:14px;background:var(--accent);min-width:0;border-radius:3px}.barrow{display:grid;grid-template-columns:minmax(95px,190px) 1fr 55px;align-items:center;gap:10px;margin:9px 0}.steps{display:grid;gap:6px}.steps button{text-align:left}.foot{margin-top:24px;color:var(--muted);font-size:13px}.result{display:block;margin:5px 0}#mobile{display:none}
 @media(max-width:780px){#shell{grid-template-columns:minmax(0,1fr)}aside{position:static;height:auto;display:none}aside.open{display:block}#mobile{display:inline-block}.top strong{display:none}.diagram svg{min-height:180px}dl{grid-template-columns:1fr;gap:3px}dd{margin-bottom:8px}}
 @media print{aside,.top,button,.filters,.tabs,.noprint{display:none!important}#shell{display:block}main{padding:0;max-width:none}.hero{background:#fff;color:#111;padding:0}.hero p,.hero .eyebrow{color:#333}.panel,.card{break-inside:avoid}body{background:#fff;color:#111}td input{border:0;padding:0;min-width:60px}table{font-size:10px}td,th{padding:4px}a{color:#111}}
-.report-field{min-height:40px;width:100%;min-width:145px;field-sizing:content;padding:6px 8px;resize:vertical}.report-field[aria-invalid=true]{border-color:#b7472d}.cell-source{display:block;margin-top:4px}.cell-source.flagged{color:var(--warn)}.print-value{display:none}.barrow{grid-template-columns:minmax(110px,190px) 1fr minmax(58px,auto)}@media print{.report-field{display:none}.print-value{display:inline;overflow-wrap:anywhere}}.column-scroll{overflow:auto;padding:14px 0}.columns{display:grid;grid-template-columns:repeat(var(--columns),minmax(108px,1fr));gap:9px}.column{display:grid;grid-template-rows:180px auto;padding:0 4px 5px;min-width:108px;text-align:center;border-color:transparent;background:transparent}.column-plot{height:100%;display:flex;align-items:flex-end;justify-content:center;border-bottom:1px solid var(--line);background:repeating-linear-gradient(to top,transparent 0,transparent 44px,var(--line) 45px)}.column-track{height:var(--value);min-height:2px;width:60%;background:var(--accent);border-radius:5px 5px 0 0;position:relative}.column-track b{font-size:12px;position:absolute;bottom:100%;left:50%;transform:translateX(-50%);white-space:nowrap;color:var(--ink)}.column-label{font-size:12px;line-height:1.25;overflow-wrap:anywhere;padding-top:6px}.columns{padding-top:18px}.tablewrap table th{min-width:110px}</style></head><body>
+.report-field{min-height:40px;width:100%;min-width:145px;field-sizing:content;padding:6px 8px;resize:vertical}.report-field[aria-invalid=true]{border-color:#b7472d}.cell-source{display:block;margin-top:4px}.cell-source.flagged{color:var(--warn)}.print-value{display:none}.barrow{grid-template-columns:minmax(110px,190px) 1fr minmax(58px,auto)}@media print{.report-field{display:none}.print-value{display:inline;overflow-wrap:anywhere}}.column-scroll{overflow:auto;padding:14px 0}.columns{display:grid;grid-template-columns:repeat(var(--columns),minmax(108px,1fr));gap:9px}.column{display:grid;grid-template-rows:180px auto;padding:0 4px 5px;min-width:108px;text-align:center;border-color:transparent;background:transparent}.column-plot{height:100%;display:flex;align-items:flex-end;justify-content:center;border-bottom:1px solid var(--line);background:repeating-linear-gradient(to top,transparent 0,transparent 44px,var(--line) 45px)}.column-track{height:var(--value);min-height:2px;width:60%;background:var(--accent);border-radius:5px 5px 0 0;position:relative}.column-track b{font-size:12px;position:absolute;bottom:100%;left:50%;transform:translateX(-50%);white-space:nowrap;color:var(--ink)}.column-label{font-size:12px;line-height:1.25;overflow-wrap:anywhere;padding-top:6px}.columns{padding-top:18px}.tablewrap table th{min-width:110px}.flow-chain{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(190px,1fr);gap:26px;list-style:none;overflow:auto;padding:16px 3px;margin:8px 0}.flow-node{position:relative}.flow-node:not(:last-child):after{content:"→";position:absolute;right:-22px;top:44%;color:var(--accent);font-weight:800;pointer-events:none}.flow-node button{display:flex;flex-direction:column;gap:8px;align-items:flex-start;text-align:left;width:100%;height:100%;padding:13px;border-top:3px solid var(--accent)}.flow-stage{color:var(--accent);font-weight:700;font-size:13px}.flow-payload{color:var(--muted);font-size:14px}@media(max-width:720px){.flow-chain{grid-auto-flow:row;gap:18px}.flow-node:not(:last-child):after{content:"↓";right:auto;left:50%;top:auto;bottom:-23px}}</style></head><body>
 <div id="shell"><aside id="sidebar"><div class="brand"><span class="logo">109</span><div>Платформа 109<small>Республика Казахстан</small></div></div><nav id="nav" aria-label="Разделы"></nav></aside><div><header class="top"><div class="tools"><button id="mobile" aria-controls="sidebar" aria-expanded="false">Разделы</button><strong>Архитектура единой платформы</strong><span class="version">Draft v0.1</span><small>На согласовании</small></div><div class="tools"><form id="search" role="search"><input id="query" type="search" aria-label="Поиск по порталу" placeholder="Поиск по порталу" required><button>Найти</button></form><button id="theme" aria-label="Переключить цветовую тему">Тёмная тема</button></div></header><main id="main"></main></div></div>
 <dialog id="modal"><div class="sectionhead"><h2 id="modalTitle"></h2><form method="dialog"><button>Закрыть</button></form></div><div id="modalBody"></div></dialog>
 <script>
@@ -14,7 +14,7 @@
 
 'use strict';
 const pages = [
-['overview','Обзор архитектуры'],['asis','Текущая архитектура'],['tobe','Целевая архитектура'],['process','Бизнес-процессы'],['integration','Интеграции'],['data','Архитектура данных'],['regions','Региональная модель'],['analytics','Аналитика и мониторинг'],['report','ОДКЦ-01'],['security','Информационная безопасность'],['infra','Инфраструктура'],['nfr','Нефункциональные требования'],['gap','GAP-анализ'],['roadmap','Дорожная карта'],['decisions','Решения и риски']
+['overview','Обзор архитектуры'],['asis','Текущая архитектура'],['tobe','Целевая архитектура'],['process','Бизнес-процессы'],['integration','Интеграции'],['data','Архитектура данных'],['flow','Движение данных'],['regions','Региональная модель'],['analytics','Аналитика и мониторинг'],['report','ОДКЦ-01'],['security','Информационная безопасность'],['infra','Инфраструктура'],['nfr','Нефункциональные требования'],['gap','GAP-анализ'],['roadmap','Дорожная карта'],['decisions','Решения и риски']
 ];
 const labels={proposal:'Предлагаемое решение',unknown:'Требует подтверждения',confirmed:'Подтверждено документом'};
 const no='Нет подтверждённых данных';
@@ -1347,7 +1347,7 @@ function tobe(){
  const viewTabs=tabs([['business','Бизнес'],['system','Системная'],['technical','Техническая']],state.view,'data-view');
  const layerTabs=state.view==='system'?tabs([['','Все уровни'],...layers.map(([code])=>[code,code])],state.layer,'data-layer'):'';
  return heading('Целевая архитектура','TO-BE · Логическая модель омниканальной платформы')+
- '<div class="tools"><a href="#asis">Перейти к AS-IS</a>'+badge('proposal')+'</div>'+
+ '<div class="tools"><a href="#asis">Перейти к AS-IS</a><a href="#flow">Движение данных</a>'+badge('proposal')+'</div>'+
  panel('Сценарий платформы',modelControls('data-model',state.model)+modelCard(state.model))+
  panel('Архитектурная схема',viewTabs+'<p class="muted">'+esc(model[1])+'. Контакт-центр 109, акиматы и коммунальные службы работают с единой карточкой через ролевые кабинеты. Интеграции обеспечивают обмен с внешними системами и переходными региональными контурами.</p>'+layerTabs+graph('tobe',architectureRows(),componentActions))+
  operatingModel()+hatchScenario()+
@@ -1957,20 +1957,66 @@ function reviewedAnalytics(){
 }
 
 
-const renderers={overview,asis:confirmedCurrent,tobe,process,integration:reportedIntegrations,data:dataPage,regions:regionPage,analytics:reviewedAnalytics,report:confirmedReport,security:securityPage,infra:infraPage,nfr:nfrPage,gap:confirmedGap,roadmap:roadmapPage,decisions:decisionsPage};
+const flowViews={
+ lifecycle:[
+ ['Входные каналы','Гражданин → оператор 109','Сообщение, канал, контакт при наличии, адрес, фото при наличии.','01 · Получено','Сохраняется внешний идентификатор сообщения. Повторная доставка связывается с уже принятым событием.'],
+ ['Единая карточка','Оператор → ядро 109','Идентификатор обращения, тип «Инцидент», услуга L1–L3, территория, высокая критичность.','02 · Зарегистрировано','Оператор подтверждает адрес и проверяет кандидатов в дубли. Дубли связываются с основной карточкой без потери истории.'],
+ ['Назначение','Ядро 109 → кабинет района','Территория, категория, объект, назначение, срок принятия.','03 · Назначено','Если балансодержатель известен, исполнитель получает задачу. Иначе район уточняет владельца через реестр и фиксирует решение.'],
+ ['Исполнение','Коммунальная служба → ядро 109','Квитанция принятия, время, ответственный, описание работ и фото результата.','04 · Исполнено','Для сценария люка фото обязательно. При отсутствии подтверждения или просрочке запускается эскалация.'],
+ ['Контроль результата','Ядро 109 → инспектор','Доказательства, история, результат проверки, причина возврата либо закрытия.','05 · Проверено','Инспектор закрывает обращение после проверки либо возвращает на доработку. При обоснованном повторе обращение возобновляется.'],
+ ['Ответ и аналитика','Ядро 109 → гражданин и аналитика','Уведомление о результате, обезличенные события, агрегаты по территории и исполнителю.','06 · Закрыто','Ответ отправляется по доступному каналу связи. Аналитика получает показатели и технические идентификаторы без контактов граждан.']
+ ],
+ storage:[
+ ['Шлюз канала','Канал → шлюз приёма','Внешний идентификатор, отметка времени, исходное сообщение.','Приём','Адаптер проверяет формат. Принятие подтверждается после записи входного события.'],
+ ['Реестр обращений','Оператор и сервисы → ядро','ID, территория, классификация, назначение, текущий статус, версия.','Операционные данные','Ядро хранит актуальное состояние записи; кабинеты получают только разрешённый срез.'],
+ ['Хранилище файлов','Канал или исполнитель → закрытое хранилище','Фото, документы, метаданные и ссылки из карточки.','Вложения','Доступ к файлу проверяется по роли и назначению. В события и аналитику содержимое не копируется.'],
+ ['Журнал событий','Ядро 109 → аудит','ID, тип события, версия, время, роль и технический ID инициатора.','История','Изменение состояния и запись события согласованы. Повторы определяются ключом события.'],
+ ['Витрина','Журнал событий → отчётность','Разрешённые атрибуты и агрегаты по периоду, территории, услуге и исполнителю.','Аналитика','Сырые контакты, ИИН, свободный текст и вложения исключаются из витрины.']
+ ],
+ exceptions:[
+ ['Повтор сообщения','Шлюз → журнал приёма','Ключ источника и внешнего сообщения.','Повтор','Система возвращает прежний результат приёма, повторная доставка не создаёт новую карточку.'],
+ ['Похожее обращение','Ядро 109 → оператор','Кандидаты по объекту, территории, подтеме и временному окну.','Проверка дубля','Оператор подтверждает связь, самостоятельные обращения сохраняют собственные контакты и историю.'],
+ ['Спорный владелец','Ядро 109 → район → вышестоящий уровень','Координатор, время начала поиска, решение о владельце.','Эскалация','Поиск ведётся параллельно оценке угрозы. При превышении срока уведомляется вышестоящий координатор.'],
+ ['Возврат на доработку','Инспектор 109 → исполнитель','Причина, результат проверки, статус и следующий срок по утверждённым правилам.','Возврат','Первичная история, оригинал доказательства и метки времени остаются доступны для проверки.'],
+ ['Сбой доставки','Сервис обмена → очередь повторов','Ключ события, номер попытки, причина и итог доставки.','Восстановление','После исчерпания настроенного числа попыток задача поступает на ручной разбор.']
+ ]
+};
+function dataFlowPage(){
+ const view=state.flowView||'lifecycle';
+ const entries=flowViews[view];
+ const names={lifecycle:'Путь обращения',storage:'Где хранятся данные',exceptions:'Исключения и возвраты'};
+ const routes=entries.map(([name,actors,payload,status],i)=>'<li class="flow-node"><button type="button" data-flow-node="'+i+'"><span class="flow-stage">'+esc(status)+'</span><strong>'+esc(name)+'</strong><span>'+esc(actors)+'</span><span class="flow-payload">'+esc(payload)+'</span></button></li>').join('');
+ return heading('Движение данных','От первого сообщения гражданина до исполнения, проверки и аналитики')+
+ '<section class="panel"><h2>Инфографика потока данных</h2>'+badge('proposal')+'<p class="muted">Сценарий открытого канализационного люка. Выберите этап, чтобы увидеть состав данных и правила передачи.</p>'+
+ tabs(Object.entries(names),view,'data-flow-view')+'<ol class="flow-chain" aria-label="'+esc(names[view])+'">'+routes+'</ol></section>'+
+ panel('Контрольные ветви',table(['Событие','Направление','Результат'],[
+ ['Владелец неизвестен','Ядро → координатор района → на вышестоящий уровень при просрочке','Владелец записан в реестр объектов, назначение связано с обращением.'],
+ ['Результат не подтверждён','Инспектор → исполнитель','Доработка с причиной и сохранением исходных доказательств.'],
+ ['Закрытое обращение обоснованно возобновлено','Гражданин → оператор → инспектор','В карточке сохраняются исходное закрытие и событие возобновления.']
+ ]))+
+ panel('Опорные данные',dl([['Обращение','Единый caseId, идентификатор территории, версия записи и состояние.'],['Событие','eventId, caseId, тип, дата и время, версия, системный источник.'],['Назначение','Исполнитель, основание маршрута, контрольные сроки и подтверждение приёма.'],['Доказательство','Идентификатор файла, его тип, источник и результат проверки.']]));
+}
+function openFlowNode(index){
+ const [name,actors,payload,status,rule]=flowViews[state.flowView||'lifecycle'][index];
+ dialog(name,badge('proposal')+dl([['Участники и направление',actors],['Состав данных',payload],['Состояние',status],['Контроль',rule]]));
+}
+
+
+const renderers={overview,asis:confirmedCurrent,tobe,process,integration:reportedIntegrations,data:dataPage,flow:dataFlowPage,regions:regionPage,analytics:reviewedAnalytics,report:confirmedReport,security:securityPage,infra:infraPage,nfr:nfrPage,gap:confirmedGap,roadmap:roadmapPage,decisions:decisionsPage};
 const searchContent={
  overview:['Гибридная архитектура','Нормативные источники','Государственная платформа'],
  asis:[...reportRegions,...asis.flatMap(r=>r.slice(0,3)),...Object.values(suppliedReports).flatMap(data=>Object.values(data).flatMap(record=>[record.values[0],record.values[20],record.values[21]].filter(Boolean)))],
  tobe:[...entries.flatMap(r=>r.slice(0,2)),...orgRows.map(r=>r[0]),...caseTypes,'Открытый канализационный люк','Единая база знаний','Балансодержатель','Матрица ответственности'],
  process:processes.flatMap(r=>r.slice(0,2)),
  integration:integrations.flatMap(r=>r.slice(0,3)),
+ flow:Object.values(flowViews).flatMap(rows=>rows.flat()),
  data:entities.flatMap(r=>r.slice(0,2)),
  regions:models.map(r=>r[0]),analytics:['Удовлетворённость','Потерянные вызовы','Динамика и нагрузка операторов','Просрочка'],
  report:[...reportRegions,...indicators.map(r=>r[0])],security:security.map(r=>r[0]),infra:infra.flat(),nfr:nfr.map(r=>r[0]),
  gap:asis.map(r=>r[4]),roadmap:roadmap.map(r=>r[0]),
  decisions:[...decisions.map(r=>r[1]),...risks.map(r=>r[1]),...questions.map(r=>r[1]),'Проектные заметки']
 };
-const groups={0:'Проект',3:'Процессы и данные',7:'Контроль и отчётность',9:'Платформа и управление'};
+const groups={0:'Проект',3:'Процессы и данные',8:'Контроль и отчётность',10:'Платформа и управление'};
 $('#nav').innerHTML=pages.map(([id,title],i)=>(groups[i]?'<div class="navgroup">'+groups[i]+'</div>':'')+
  '<a href="#'+id+'"><span aria-hidden="true">'+String(i+1).padStart(2,'0')+'</span>'+esc(title)+'</a>').join('');
 function pageId(){const hash=location.hash.slice(1);return Object.hasOwn(renderers,hash)?hash:'overview'}
@@ -2018,11 +2064,12 @@ $('#modal').addEventListener('click',e=>{if(e.target.closest('[data-search-link]
 const tabConfig=[
  ['data-region','region',Number],['data-model','model',Number],['data-view','view',String],['data-layer','layer',String],
  ['data-regmodel','regModel',Number],['data-inframodel','infraModel',Number],['data-phase','phase',Number],
- ['data-confirmed-region','confirmedRegion',String],['data-analytics-mode','analyticsMode',String]
+ ['data-flow-view','flowView',String],['data-confirmed-region','confirmedRegion',String],['data-analytics-mode','analyticsMode',String]
 ];
 main.addEventListener('click',e=>{
  const button=e.target.closest('button');
  if(!button)return;
+ if(button.hasAttribute("data-flow-node")){openFlowNode(Number(button.dataset.flowNode));return}
  for(const [attr,key,convert] of tabConfig){
   if(!button.hasAttribute(attr))continue;
   const value=button.getAttribute(attr);
